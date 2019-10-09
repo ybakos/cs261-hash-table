@@ -156,8 +156,7 @@ class TestHashTable(unittest.TestCase):
 
     # def test_delete(self):
     #     """
-    #     Inserting a k-v pair where the key has the same hash as an existing key
-    #     appends the new k-v pair to the list at the appropriate index.
+    #     A deleted k-v pair should not be retrievable.
     #     """
     #     h = HashTable(3)
     #     h['foo'] = 'bar'
